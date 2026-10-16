@@ -82,19 +82,15 @@ Because the roads are assumed to be bidirectional, \(d(u,v)=d(v,u)\) for each co
 
 Nairobi → Maai Mahiu → Narok → Bomet → Kisii → Oyugis → Kisumu
 
-\[
 g(P_A) = 42.56 + 79.39 + 68.18 + 64.69 + 18.75 + 45.23
-= \mathbf{318.80\ km}
-\]
+= 318.80 km
 
 **Path B — via Homa Bay:**
 
 Nairobi → Maai Mahiu → Narok → Bomet → Kisii → Homa Bay → Kisumu
 
-\[
 g(P_B) = 42.56 + 79.39 + 68.18 + 64.69 + 38.66 + 57.78
-= \mathbf{351.26\ km}
-\]
+= 351.26 km
 
 ### Optimal path based on the provided distances
 
