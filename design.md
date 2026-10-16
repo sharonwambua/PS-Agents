@@ -94,8 +94,8 @@ g(P_B) = 42.56 + 79.39 + 68.18 + 64.69 + 38.66 + 57.78
 Path A, via Oyugis, has the lower calculated distance at **318.80 km**, compared with **351.26 km** for Path B. Therefore, Path A is the shortest of these two compared routes based on the supplied edge distances.
 
 ## 1. Group Members
-a)Sharon Wambua 190130
-b)Terryanne Bisieri 183618
-c)Luckylisa Bemeye 168145
+a) Sharon Wambua - 190130,
+b) Terryanne Bisieri - 183618,
+c) Luckylisa Bemeye - 168145
 
 ![Group members](Group%20members.jpeg)
