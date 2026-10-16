@@ -69,12 +69,9 @@ Since the roads are bidirectional, the agent may travel in either direction alon
 
 ## 4. Path Cost and Route Comparison
 
-Let \(G = (V,E)\) be the road graph, and let \(d(u,v)\) be the distance in kilometres for a road connecting towns \(u\) and \(v\). A valid path \(P = (n_0,n_1,\ldots,n_k)\) is a sequence of towns where each consecutive pair is connected by a road. Its path-cost function is:
+Let \(G = (V,E)\) be the road graph, and let \(d(u,v)\) be the distance in kilometres for a road connecting towns \(u\) and \(v\). A valid path \(P = (n_0,n_1,\ldots,n_k)\) is a sequence of towns where each consecutive pair is connected by a road. Replace that line with:
 
-\[
-g : \operatorname{Paths}(G) \to \mathbb{R}_{\ge 0}, \qquad
-g(P) = \sum_{i=0}^{k-1} d(n_i,n_{i+1})
-\]
+The total path cost is calculated by adding the distances between each pair of consecutive towns along the route.
 
 Because the roads are assumed to be bidirectional, \(d(u,v)=d(v,u)\) for each connected pair of towns. The cost of a route is therefore the sum of its road distances.
 
@@ -95,3 +92,5 @@ g(P_B) = 42.56 + 79.39 + 68.18 + 64.69 + 38.66 + 57.78
 ### Optimal path based on the provided distances
 
 Path A, via Oyugis, has the lower calculated distance at **318.80 km**, compared with **351.26 km** for Path B. Therefore, Path A is the shortest of these two compared routes based on the supplied edge distances.
+
+![Group members](Group%20members.jpeg)
